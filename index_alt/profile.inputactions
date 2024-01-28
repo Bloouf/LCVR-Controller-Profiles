@@ -61,12 +61,12 @@
                 },
                 {
                     "name": "Crouch",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "a5e81f24-9799-4b3e-b009-386c60e18cc1",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Use",
@@ -286,9 +286,9 @@
                 {
                     "name": "Crouch: Right Joystick Click",
                     "id": "6c44f5e1-91d6-4238-b5c5-316ed0be4167",
-                    "path": "<XRController>{LeftHand}/trackpadTouched",
-                    "interactions": "MultiTap",
-                    "processors": "",
+                    "path": "<XRHMD>/centerEyePosition/y",
+                    "interactions": "",
+                    "processors": "AxisDeadzone(min=0.1,max=0.5)",
                     "groups": "",
                     "action": "Crouch",
                     "isComposite": false,
@@ -330,8 +330,8 @@
                 {
                     "name": "Switch Item: Right Joystick Y",
                     "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
-                    "path": "<XRController>{RightHand}/trackpadDpadDown",
-                    "interactions": "",
+                    "path": "<ValveIndexController>{LeftHand}/triggerTouched",
+                    "interactions": "MultiTap",
                     "processors": "",
                     "groups": "",
                     "action": "SwitchItem",
@@ -385,7 +385,7 @@
                 {
                     "name": "modifier",
                     "id": "f222fe61-0a9d-4268-8c6c-bd90a7bf5cb9",
-                    "path": "<XRController>{LeftHand}/trackpadDpadDown",
+                    "path": "<ValveIndexController>{LeftHand}/trackpadTouched",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -396,7 +396,7 @@
                 {
                     "name": "binding",
                     "id": "abbd819f-a0d6-4910-a3af-ca841cb485d0",
-                    "path": "<XRController>{RightHand}/trackpadDpadDown",
+                    "path": "<ValveIndexController>{RightHand}/trackpadTouched",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
