@@ -63,7 +63,7 @@
                     "name": "Crouch",
                     "type": "Value",
                     "id": "a5e81f24-9799-4b3e-b009-386c60e18cc1",
-                    "expectedControlType": "Axis",
+                    "expectedControlType": "Vector3",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -100,7 +100,7 @@
                     "type": "Value",
                     "id": "c4f37a56-2df5-447b-8d60-98946d41bfe8",
                     "expectedControlType": "Axis",
-                    "processors": "AxisDeadzone",
+                    "processors": "AxisDeadzone(min=0.425)",
                     "interactions": "",
                     "initialStateCheck": true
                 },
@@ -286,7 +286,7 @@
                 {
                     "name": "Crouch: Right Joystick Click",
                     "id": "6c44f5e1-91d6-4238-b5c5-316ed0be4167",
-                    "path": "<OpenXRHmd>/devicePosition/y",
+                    "path": "<OpenXRHmd>/centerEyePosition",
                     "interactions": "",
                     "processors": "AxisDeadzone(min=-1,max=0.5)",
                     "groups": "",
