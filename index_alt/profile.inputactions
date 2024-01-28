@@ -286,7 +286,7 @@
                 {
                     "name": "Crouch: Right Joystick Click",
                     "id": "6c44f5e1-91d6-4238-b5c5-316ed0be4167",
-                    "path": "<XRController>{RightHand}/trackpadTouched",
+                    "path": "<XRController>{LeftHand}/trackpadTouched",
                     "interactions": "MultiTap",
                     "processors": "",
                     "groups": "",
@@ -330,7 +330,7 @@
                 {
                     "name": "Switch Item: Right Joystick Y",
                     "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
-                    "path": "<ValveIndexController>{LeftHand}/trackpad/y",
+                    "path": "<XRController>{RightHand}/trackpadDpadDown",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -385,7 +385,7 @@
                 {
                     "name": "modifier",
                     "id": "f222fe61-0a9d-4268-8c6c-bd90a7bf5cb9",
-                    "path": "<XRController>{LeftHand}/gripButton",
+                    "path": "<XRController>{LeftHand}/trackpadDpadDown",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -396,7 +396,7 @@
                 {
                     "name": "binding",
                     "id": "abbd819f-a0d6-4910-a3af-ca841cb485d0",
-                    "path": "<XRController>{RightHand}/gripButton",
+                    "path": "<XRController>{RightHand}/trackpadDpadDown",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
