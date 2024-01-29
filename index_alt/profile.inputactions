@@ -63,7 +63,7 @@
                     "name": "Crouch",
                     "type": "Value",
                     "id": "a5e81f24-9799-4b3e-b009-386c60e18cc1",
-                    "expectedControlType": "Vector3",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -99,7 +99,7 @@
                     "name": "SwitchItem",
                     "type": "Value",
                     "id": "c4f37a56-2df5-447b-8d60-98946d41bfe8",
-                    "expectedControlType": "Axis",
+                    "expectedControlType": "",
                     "processors": "AxisDeadzone(min=0.425)",
                     "interactions": "",
                     "initialStateCheck": true
@@ -286,9 +286,9 @@
                 {
                     "name": "Crouch: Right Joystick Click",
                     "id": "6c44f5e1-91d6-4238-b5c5-316ed0be4167",
-                    "path": "<OpenXRHmd>/centerEyePosition",
+                    "path": "<XRController>{LeftHand}/trackpadTouched",
                     "interactions": "",
-                    "processors": "AxisDeadzone(min=-1,max=0.5)",
+                    "processors": "",
                     "groups": "",
                     "action": "Crouch",
                     "isComposite": false,
@@ -330,8 +330,8 @@
                 {
                     "name": "Switch Item: Right Joystick Y",
                     "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
-                    "path": "<ValveIndexController>{LeftHand}/trigger",
-                    "interactions": "",
+                    "path": "<ValveIndexController>/thumbstick/y",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "",
                     "action": "SwitchItem",
@@ -827,12 +827,12 @@
                 },
                 {
                     "name": "Interact",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "765099c4-7c97-45b9-849b-1b8e5e6dd641",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Turn",
@@ -878,6 +878,17 @@
                     "name": "",
                     "id": "d3055ade-c2b9-479f-b45d-32c3ba2ed300",
                     "path": "<XRController>{RightHand}/gripforce",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ea4f599-1a9c-4c20-bd37-f2f9d5ff00f1",
+                    "path": "<XRController>{LeftHand}/gripforce",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

@@ -10,15 +10,15 @@
 |      Sprint      | Shift            | (Disabled)              | Taken over by the mod, check `VR Inputs` below                    |
 |     OpenMenu     | Escape, Tab      | L Joystick Button       |                                                                   |
 |     Interact     | E                | (Disabled)              | Taken over by the mod, check `VR Inputs` below                    |
-|      Crouch      | Ctrl             | L DoubleTap Trackpad    |                                                                   |
+|      Crouch      | Ctrl             | L Tap Trackpad          |                                                                   |
 |       Use        | LMB              | Right trigger           |                                                                   |
 |   ActivateItem   | LMB              | Right trigger           |                                                                   |
 |     Discard      | G                | B (Right Hand)          |                                                                   |
-|    SwitchItem    | ScrollY          | R Trackpad DPad Down    |                                                                   |
+|    SwitchItem    | ScrollY          | R Joystick Y Axis       |                                                                   |
 | ItemSecondaryUse | Q                | A (Left Hand)           |                                                                   |
 | ItemTertiaryUse  | E                | B (Left Hand)           |                                                                   |
 |     PingScan     | RMB              | Left Trigger            |                                                                   |
-|    BuildMode     | B                | L+R Trackpad DPad Down  | Press both buttons simultaneously to go into build mode           |
+|    BuildMode     | B                | Tap L+R Trackpad        | Press both buttons simultaneously to go into build mode           |
 |      Delete      | X                | B (Right Hand)          |                                                                   |
 |  QEItemInteract  | Q, E             | (Disabled)              | Depricated since V45, Use secondary and tertiary use instead      |
 |    EnableChat    | Slash            | (Disabled)              | Chat is just not something we want to do in VR                    |
@@ -37,7 +37,7 @@
 |    Action    | Bind              | Notes                                                                                   |
 | :----------: | ----------------- | --------------------------------------------------------------------------------------- |
 | Reset Height | R Joystick Button | Recalculates the offset between your headset and the floor                              |
-|     Grab     | R Grip Button     | The grab and interact button for world interactables                                    |
+|     Grab     | L or R Grip Button| The grab and interact button for world interactables                                    |
 |     Turn     | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
 |    Pivot     | R Joystick        | Spectator camera pivoting and build mode prop rotating                                  |
-|    Sprint    | R Touch Trackpad  | Must either be held down or toggles based on the configuration that is used             |
+|    Sprint    | L Hold Trackpad   | Must either be held down or toggles based on the configuration that is used             |
