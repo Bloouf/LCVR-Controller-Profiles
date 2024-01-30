@@ -100,7 +100,7 @@
                     "type": "Value",
                     "id": "c4f37a56-2df5-447b-8d60-98946d41bfe8",
                     "expectedControlType": "",
-                    "processors": "AxisDeadzone(min=0.425)",
+                    "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
                 },
@@ -287,7 +287,7 @@
                     "name": "Crouch: Right Joystick Click",
                     "id": "6c44f5e1-91d6-4238-b5c5-316ed0be4167",
                     "path": "<XRController>{LeftHand}/trackpadTouched",
-                    "interactions": "",
+                    "interactions": "MultiTap",
                     "processors": "",
                     "groups": "",
                     "action": "Crouch",
