@@ -330,8 +330,8 @@
                 {
                     "name": "Switch Item: Right Joystick Y",
                     "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
-                    "path": "<ValveIndexController>{RightHand}/thumbstickClicked",
-                    "interactions": "",
+                    "path": "<ValveIndexController>{RightHand}/trackpadTouched",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": "",
                     "action": "SwitchItem",
@@ -854,20 +854,20 @@
                 },
                 {
                     "name": "Sprint",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "8131f75e-cf47-4787-bd52-07dd45d7e2eb",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
                     "name": "",
                     "id": "999af60d-8da7-42dc-aa61-06c484e9a8e3",
-                    "path": "<ValveIndexController>{LeftHand}/trackpadTouched",
-                    "interactions": "Hold(duration=0.7,pressPoint=0.5)",
+                    "path": "<ValveIndexController>{RightHand}/thumbstickTouched",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Reset Height",
@@ -878,17 +878,6 @@
                     "name": "",
                     "id": "d3055ade-c2b9-479f-b45d-32c3ba2ed300",
                     "path": "<XRController>{RightHand}/gripforce",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Interact",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "1ea4f599-1a9c-4c20-bd37-f2f9d5ff00f1",
-                    "path": "<XRController>{LeftHand}/gripforce",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -921,8 +910,8 @@
                 {
                     "name": "",
                     "id": "a72ff720-f8fe-4b2d-8b3a-def7f0974a60",
-                    "path": "<XRController>{RightHand}/trackpadTouched",
-                    "interactions": "Hold",
+                    "path": "<ValveIndexController>{LeftHand}/gripForce",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Sprint",

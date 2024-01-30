@@ -10,11 +10,11 @@
 |      Sprint      | Shift            | (Disabled)              | Taken over by the mod, check `VR Inputs` below                    |
 |     OpenMenu     | Escape, Tab      | L Joystick Button       |                                                                   |
 |     Interact     | E                | (Disabled)              | Taken over by the mod, check `VR Inputs` below                    |
-|      Crouch      | Ctrl             | L Tap Trackpad          |                                                                   |
+|      Crouch      | Ctrl             | L 2x Tap Trackpad       |                                                                   |
 |       Use        | LMB              | Right trigger           |                                                                   |
 |   ActivateItem   | LMB              | Right trigger           |                                                                   |
 |     Discard      | G                | B (Right Hand)          |                                                                   |
-|    SwitchItem    | ScrollY          | R Joystick Y Axis       |                                                                   |
+|    SwitchItem    | ScrollY          | Tap R Trackpad          |                                                                   |
 | ItemSecondaryUse | Q                | A (Left Hand)           |                                                                   |
 | ItemTertiaryUse  | E                | B (Left Hand)           |                                                                   |
 |     PingScan     | RMB              | Left Trigger            |                                                                   |
@@ -37,7 +37,7 @@
 |    Action    | Bind              | Notes                                                                                   |
 | :----------: | ----------------- | --------------------------------------------------------------------------------------- |
 | Reset Height | R Joystick Button | Recalculates the offset between your headset and the floor                              |
-|     Grab     | L or R Grip Button| The grab and interact button for world interactables                                    |
+|     Grab     | R Grip Button     | The grab and interact button for world interactables                                    |
 |     Turn     | R Joystick X Axis | If you have snap/smooth turning enabled, this will determine the direction to rotate in |
 |    Pivot     | R Joystick        | Spectator camera pivoting and build mode prop rotating                                  |
-|    Sprint    | L Hold Trackpad   | Must either be held down or toggles based on the configuration that is used             |
+|    Sprint    | L Grip            | Must either be held down or toggles based on the configuration that is used             |
