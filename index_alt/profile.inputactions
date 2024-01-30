@@ -330,8 +330,8 @@
                 {
                     "name": "Switch Item: Right Joystick Y",
                     "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
-                    "path": "<ValveIndexController>{RightHand}/trackpadTouched",
-                    "interactions": "Tap",
+                    "path": "<XRController>{RightHand}/trackpadTouched",
+                    "interactions": "MultiTap(tapCount=1)",
                     "processors": "",
                     "groups": "",
                     "action": "SwitchItem",
@@ -877,7 +877,7 @@
                 {
                     "name": "",
                     "id": "d3055ade-c2b9-479f-b45d-32c3ba2ed300",
-                    "path": "<XRController>{RightHand}/gripforce",
+                    "path": "<ValveIndexController>{RightHand}/gripForce",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
