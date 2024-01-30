@@ -331,7 +331,7 @@
                     "name": "Switch Item: Right Joystick Y",
                     "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
                     "path": "<XRController>{RightHand}/trackpadTouched",
-                    "interactions": "MultiTap(tapCount=1)",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "SwitchItem",
