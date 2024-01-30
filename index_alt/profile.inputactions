@@ -99,7 +99,7 @@
                     "name": "SwitchItem",
                     "type": "Value",
                     "id": "c4f37a56-2df5-447b-8d60-98946d41bfe8",
-                    "expectedControlType": "",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -330,8 +330,8 @@
                 {
                     "name": "Switch Item: Right Joystick Y",
                     "id": "c1350284-9a00-482c-853d-7701e59e0a9d",
-                    "path": "<ValveIndexController>/thumbstick/y",
-                    "interactions": "Tap",
+                    "path": "<ValveIndexController>{RightHand}/trackpad/y",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "SwitchItem",
