@@ -866,7 +866,7 @@
                 {
                     "name": "",
                     "id": "999af60d-8da7-42dc-aa61-06c484e9a8e3",
-                    "path": "<ValveIndexController>{RightHand}/thumbstickTouched",
+                    "path": "<ValveIndexController>{RightHand}/thumbstickClicked",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
