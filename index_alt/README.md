@@ -10,12 +10,12 @@
 |      Sprint      | Shift            | (Disabled)              | Taken over by the mod, check `VR Inputs` below                    |
 |     OpenMenu     | Escape, Tab      | L Joystick Button       |                                                                   |
 |     Interact     | E                | (Disabled)              | Taken over by the mod, check `VR Inputs` below                    |
-|      Crouch      | Ctrl             | L 2x Tap Trackpad       |                                                                   |
+|      Crouch      | Ctrl             | Tap L Trackpad          |                                                                   |
 |       Use        | LMB              | Right trigger           |                                                                   |
 |   ActivateItem   | LMB              | Right trigger           |                                                                   |
-|     Discard      | G                | B (Right Hand)          |                                                                   |
+|     Discard      | G                | A (Left Hand)           |                                                                   |
 |    SwitchItem    | ScrollY          | Tap R Trackpad          |                                                                   |
-| ItemSecondaryUse | Q                | A (Left Hand)           |                                                                   |
+| ItemSecondaryUse | Q                | B (Right Hand)          |                                                                   |
 | ItemTertiaryUse  | E                | B (Left Hand)           |                                                                   |
 |     PingScan     | RMB              | Left Trigger            |                                                                   |
 |    BuildMode     | B                | Tap L+R Trackpad        | Press both buttons simultaneously to go into build mode           |

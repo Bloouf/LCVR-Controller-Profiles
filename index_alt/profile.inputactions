@@ -286,8 +286,8 @@
                 {
                     "name": "Crouch: Right Joystick Click",
                     "id": "6c44f5e1-91d6-4238-b5c5-316ed0be4167",
-                    "path": "<XRController>{LeftHand}/trackpadTouched",
-                    "interactions": "MultiTap",
+                    "path": "<ValveIndexController>{LeftHand}/trackpadTouched",
+                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Crouch",
@@ -319,7 +319,7 @@
                 {
                     "name": "Discard: B",
                     "id": "3214c780-429b-4e8f-a87f-6d966a323ba1",
-                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "path": "<ValveIndexController>{LeftHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -352,7 +352,7 @@
                 {
                     "name": "Secondary Use: Left Grip Button",
                     "id": "6dc32574-fab3-4107-b005-12d695167d5d",
-                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "path": "<ValveIndexController>{RightHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -363,7 +363,7 @@
                 {
                     "name": "Tertiary Use: Right Grip Button",
                     "id": "8d5f176f-b552-4550-9e45-3d3df19b9a06",
-                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "path": "<ValveIndexController>{LeftHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -418,7 +418,7 @@
                 {
                     "name": "",
                     "id": "72ea56f3-4c07-4d5b-abdd-16e7dbab7764",
-                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "path": "<ValveIndexController>{LeftHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
